@@ -1,0 +1,93 @@
+#navbar{
+    display: flex;
+    gap: 50px;
+    background-color: black;
+    color: blanchedalmond;
+}
+
+#Photo1{
+    position: relative;
+    top: 5%;
+    margin: 2%;
+    width: 85%;
+    height: 500px;
+    border-radius: 20px;
+    
+}
+
+#Photo1-text{
+position: absolute;
+text-align: left;
+bottom: 15px;
+left: 58px;
+font-size: 20px;
+color: rgb(8, 8, 8);
+
+}
+
+button{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+#collection{
+    display: table;
+    flex: 30%;
+    padding: 5px;
+}
+
+.column{
+    float: left;
+    padding: 5px;
+    display: flex;
+    width: 90%;
+    height: 150px;
+    gap: 50px;
+   
+}
+
+.collection2{
+    display: table;
+    flex: 30%;
+    padding: 5px;
+}
+
+.column2{
+    float: left;
+    padding: 5px;
+    display: flex;
+    width: 90%;
+    height: 150px;
+    gap: 50px;
+}
+
+.column3{
+    float: left;
+    padding: 5px;
+    display: flex;
+    width: 90%;
+    height: 150px;
+    gap: 50px;
+}
+
+.column4{
+    float: left;
+    padding: 5px;
+    display: flex;
+    width: 90%;
+    height: 150px;
+    gap: 50px;
+}
+
+#statement{
+display: flex;
+margin: 5%
+}
+
+.Footer{
+    display: flex;
+    background-color: black;
+    color: beige;
+    gap: 90px;
+}
