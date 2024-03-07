@@ -3,32 +3,36 @@
     gap: 50px;
     background-color: black;
     color: blanchedalmond;
+    margin: 0% 15% 0% 12%;
+    border-radius: 15px;
 }
 
 #Photo1{
     position: relative;
     top: 5%;
-    margin: 2%;
-    width: 85%;
-    height: 500px;
+    margin: 2% 9%;
+    width: 80%;
+    height: 470px;
     border-radius: 20px;
     
 }
 
 #Photo1-text{
 position: absolute;
-text-align: left;
-bottom: 15px;
-left: 58px;
-font-size: 20px;
-color: rgb(8, 8, 8);
+bottom: 1px;
+left: 12%;
+font-size: 110%;
+color: white;
 
 }
 
 button{
     background-color: white;
     color: black;
-    border-radius: 5px;
+    border-radius: 25px;
+    width: 93px;
+    height: 35px;
+    border: solid white 1px;
 }
 
 #collection{
@@ -82,12 +86,73 @@ button{
 
 #statement{
 display: flex;
-margin: 5%
+margin: 5%;
+gap: 80px;
+}
+
+#button2{
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    margin-left: 40%;
+    width: 13%;
+    height: 35px;
+    border: solid black 1px;
+}
+
+#button3{
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    width: 33%;
+    height: 35px;
+    border: solid black 1px;
+    
 }
 
 .Footer{
     display: flex;
     background-color: black;
     color: beige;
+    margin: 10% 2% 0% 3%;
     gap: 90px;
+    font-size: 115%;
+}
+
+#Footer-margin{
+    background-color: black;
+    margin: 10% 7% 0% 7%;
+    width: 89%;
+    height: 250px;
+}
+
+#Photo2{
+    /* width: 5%; */
+    /* height: 12%; */
+    margin: 2% 9%;
+    border-radius: 20px;
+    position: relative;
+}
+
+#Photo2Text{
+    position: absolute;
+    top: 90px;
+    left: 10%;
+    color: white;
+    font-size:150%;
+    
+}
+
+.Words-Button{
+    display: flex;
+    gap: 80px;
+}
+
+.input{
+    margin-left: 15%;
+}
+
+h2{
+    margin-left: 12%;
+    font-size: 40px;
 }
